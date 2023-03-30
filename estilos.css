@@ -1,0 +1,264 @@
+aside {
+    width: 20%;
+    height: 100%;
+    padding-left: 15px;
+    margin-left: 15px;
+    margin-top: 12px;
+    border: 3px solid blue ; 
+    float: left;
+    font-style: italic;
+    background-color: orange;
+    border-radius: 10px; 
+  }
+
+  aside img {
+    display: block; /* Para que el margen horizontal automático funcione */
+    margin: 0 auto; /* Establecer el margen izquierdo y derecho en automático para centrar */
+  }
+
+  .btn.btn-secondary {
+    border: 1px solid #131212;
+  }
+  
+  .btn.btn-secondary:hover {
+    border-color: #131212;
+  }
+
+  section {
+    width: 50%;
+    height: 100%;
+    padding-left: 15px;
+    margin-left: 15px;
+    margin-top: 12px;
+    border: 3px solid blue ; 
+    float: left;
+    font-style: italic;
+    background-color:aquamarine;
+    border-radius: 10px; 
+  }
+  
+  
+  section2 {
+    width: 25%;
+    height: 80%;
+    padding: 15px;
+    margin-left: 15px;
+    margin-top: 12px;
+    border: 3px solid blue ; 
+    float: right;
+    font-style: italic;
+    background-color:aquamarine;
+    border-radius: 10px; 
+  }
+
+  #miContenedor {
+    width: 50%;
+    height: 100%;
+    padding: 15px;
+    margin-left: 15px;
+    margin-top: 12px;
+    border: 3px solid blue ; 
+    float: left;
+    font-style: italic;
+    font-size: 24px;
+    background-color:aquamarine;
+    border-radius: 10px; 
+  }
+
+  section3 {
+    width: 25%;
+    height: 80%;
+    padding-left: 15px;
+    margin-left: 15px;
+    margin-top: 12px;
+    border: 3px solid blue ; 
+    float: right;
+    clear: right;
+    font-style: italic;
+    background-color:aquamarine;
+    border-radius: 10px; 
+  }
+
+  section4 {
+    width: 50%;
+    height: 80%;
+    padding-left: 15px;
+    margin-left: 15px;
+    margin-top: 12px;
+    border: 3px solid blue ; 
+    float: left;
+    font-style: italic;
+    background-color:aquamarine;
+    border-radius: 10px; 
+  }
+
+  section4 li {
+    font-family: Impact, Charcoal, sans-serif;
+    font-size: 20px;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    
+    
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+    
+    font-weight: normal;
+    color:darkblue;
+  }
+
+  section6 {
+    width: 25%;
+    height: 80%;
+    padding-left: 15px;
+    margin-left: 15px;
+    margin-top: 12px;
+    border: 3px solid blue ; 
+    float: right;
+    clear: right;
+    font-style: italic;
+    background-color:aquamarine;
+    border-radius: 10px; 
+  }
+
+  h2 {
+    font-family: Impact, Charcoal, sans-serif;
+    font-size: 50px;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    
+    
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+    
+    font-weight: normal;
+    color:darkblue;
+   
+  }
+  
+
+  aside h1 {
+      font-weight: bold;
+      color:darkblue;
+  }
+
+  aside h2 {
+    font-weight: bold;
+    color:darkblue;
+    text-align: center;
+}
+
+section6 img {
+  display: block; /* Para que el margen horizontal automático funcione */
+  margin: 0 auto; /* Establecer el margen izquierdo y derecho en automático para centrar */
+  margin-bottom: 100px
+  
+}
+
+  footer {
+    display: flex;
+    background-color:aquamarine;
+		color: red;
+		padding: 10px;
+		position: fixed;
+		bottom: 0;
+		width: 100%;
+    justify-content: center;
+    align-items: center;
+    font-size:large;
+    text-align: center;
+    z-index: 1;
+  }
+
+  .footer-content p {
+    display: inline-block;
+    margin: 0 50px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+/*
+  <style>
+     Estilos para el formulario */
+    form {
+        max-width: 500px;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: #f2f2f2;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    label {
+        display: block;
+        margin-bottom: 10px;
+        font-weight: bold;
+    }
+    input[type="text"],
+    input[type="email"],
+    input[type="number"] {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 20px;
+        border-radius: 5px;
+        border: none;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    }
+    input[type="submit"] {
+        background-color: #4CAF50;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    input[type="submit"]:hover {
+        background-color: #3e8e41;
+    }
+
+/* Aplicar márgenes al elemento section */
+section {
+  margin: 20px;
+}
+
+/* Aplicar espacios en blanco al elemento ul */
+ul {
+  padding-left: 20px;
+}
+
+/* Aplicar un espacio en blanco después de cada li */
+li {
+  margin-bottom: 10px;
+}
+    
+
+#boton1,
+#boton2,
+#boton3,
+#boton4 {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+  background-color: aquamarine;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+}
+
+#boton1:hover,
+#boton2:hover,
+#boton3:hover,
+#boton4:hover {
+  background-color: #006699;
+  cursor: pointer;
+}
+
+
+
